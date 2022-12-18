@@ -1,0 +1,1089 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.navbar-color {
+  background: #161515 !important;
+}
+
+.bracket-custom-right {
+  font-family: "Ubuntu Mono", monospace;
+  color: #00ff57 !important;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.bracket-custom-left {
+  font-family: "Ubuntu Mono", monospace;
+  color: #00ff57 !important;
+  font-size: 24px;
+  margin-left: 2px;
+}
+
+.logo-name {
+  font-family: "Ubuntu Mono", monospace;
+  color: #585656 !important;
+  font-size: 29px;
+}
+
+nav .navbar-nav li a {
+  color: #524d4d !important;
+  font-family: "Ruda", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.navbar-nav > li {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.main-pane {
+  background-color: rgb(26, 25, 25);
+}
+
+.main-pane-heading {
+  color: rgb(255, 255, 255);
+  font-family: "Ruda", sans-serif;
+  font-weight: 700;
+}
+
+.name-heading {
+  color: #4e6eb3;
+  font-weight: 700;
+}
+
+.tech-stack {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #a7a7a7;
+}
+
+.java-heading {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  color: #da4c5d;
+}
+
+.container {
+  max-width: 80% !important; /*Set your own width %; */
+}
+
+button {
+  margin: auto;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  color: #fafafa;
+  background-color: #9c0edd;
+  border: 100px;
+  border-radius: 40px;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+  transition: 0.3s all ease;
+  letter-spacing: 0.1rem;
+  font-size: 0.85rem;
+
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-left: 2rem;
+}
+button:after,
+button:before {
+  position: absolute;
+  font-family: "Barrio", sans-serif;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #006b34;
+  transition: 0.3s all ease;
+}
+button:before {
+  content: "<";
+  position: absolute;
+  left: 1.2rem;
+  border-radius: 7px;
+  top: 0.5rem;
+}
+button:after {
+  content: "_";
+  position: absolute;
+  left: 0.6rem;
+  border-radius: 7px;
+  top: 0.6rem;
+}
+button:hover {
+  box-shadow: 1px 1px 20px rgba(150, 150, 150, 0.2);
+  top: -0.1rem;
+  right: -0.1rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+button:hover:before {
+  content: "<";
+  position: absolute;
+  left: 0.8rem;
+  border-radius: 7px;
+  top: 0.3rem;
+  border-radius: 7px;
+  transform: translateY(-1px);
+}
+
+.btn-text {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.btn-main {
+  border-radius: 12px;
+}
+
+.tech-pane {
+  background-color: #0d1016;
+}
+
+.portrait-image {
+  object-fit: cover;
+}
+
+.stack-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.stack-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tech-box {
+  height: 130px;
+
+  background: linear-gradient(262.42deg, #292929 -0.7%, #1f1c1c 90.19%);
+  border-radius: 13px;
+}
+
+.card-head {
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+
+  color: #3cac69;
+}
+
+.card-desc {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  word-wrap: break-word;
+  color: #ffffff;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.github-link:hover {
+  text-decoration: none;
+  color: #00ff57;
+}
+
+.quater-text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #5df499;
+}
+
+.project-image-display-comlumn img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.project-image-display-comlumn:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.winter-uni-heading:hover {
+  color: #5df499;
+
+  color: #48a760;
+  text-decoration: none;
+}
+
+.nortal-heading:hover {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #48a760;
+  text-decoration: none;
+}
+
+
+.java-box-title {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 12px;
+
+  color: #c8803e;
+}
+
+.angular-title {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 12px;
+
+  color: #e73939;
+}
+
+.maintenence-title {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 12px;
+  color: #6361c6;
+}
+
+.introduce-heading {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+
+.name-heads {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 30px;
+
+  color: #cacaca;
+}
+
+.inspiration-heading {
+  font-family: Ubuntu Mono;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.project-head {
+  font-family: Ubuntu Mono;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 20px;
+
+  color: #3cac69;
+}
+
+.idea-head {
+  font-family: Ubuntu Mono;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 20px;
+
+  color: #77478d;
+}
+
+.text-head {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: justify;
+
+  color: #a09999;
+}
+
+.skills-pane {
+  background: #353030;
+}
+
+.education-heading {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #5df499;
+}
+
+.skills-underline {
+  border: 0 0 0 2px solid #5df499;
+}
+
+.education-title {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.sda-heading {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #5df499;
+}
+
+.education-desc {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 14px;
+
+  color: #8f8989;
+}
+
+.education-desc-highlight {
+  color: #5df499;
+}
+
+.diploma-link {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 14px;
+  text-decoration: none;
+
+  color: #5df499;
+}
+
+.diploma-link:hover {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 14px;
+  text-decoration: none;
+
+  color: #0de965;
+}
+
+.footer-contact {
+  background: black url(assets/img/Footer-frame2.svg);
+  height: 668px;
+}
+
+.creative-heading {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+.hi-heading {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 37px;
+
+  color: #5df499;
+}
+
+.firstname-heading {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+.lastname-heading {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 37px;
+
+  color: #c4bcbc;
+}
+
+.information-heading {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+
+  color: #8f8989;
+}
+
+.contacts {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration-line: underline;
+
+  color: #19d664;
+}
+
+.linkedin-link {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration-line: underline;
+
+  color: #19d664;
+}
+
+.rights-heading {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand-image:hover {
+  text-decoration: none;
+  color: #00d166;
+}
+
+.btn-main {
+  margin: auto;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  color: #fafafa;
+  background-color: #45b667;
+  border: 100px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+  transition: 0.3s all ease;
+  letter-spacing: 0.1rem;
+  font-size: 0.85rem;
+
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-left: 2rem;
+}
+.btn-main:after,
+button:before {
+  position: absolute;
+  font-family: "Barrio", sans-serif;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
+  transition: 0.3s all ease;
+}
+.btn-main:before {
+  content: "_";
+  position: absolute;
+  left: 1.2rem;
+  border-radius: 7px;
+  top: 0.5rem;
+}
+.btn-main:after {
+  content: ">";
+  position: absolute;
+  left: 0.6rem;
+  border-radius: 7px;
+  top: 0.6rem;
+}
+.btn-main:hover {
+  box-shadow: 1px 1px 20px rgba(150, 150, 150, 0.2);
+  top: -0.1rem;
+  right: -0.1rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.btn-main:hover:before {
+  content: "_";
+  position: absolute;
+  left: 0.8rem;
+  border-radius: 7px;
+  top: 0.3rem;
+  border-radius: 7px;
+  transform: translateY(-1px);
+}
+.btn-main:hover:after {
+  content: ">";
+  border-radius: 7px;
+  position: absolute;
+  left: 1.1rem;
+  top: 0.7rem;
+}
+
+.project-1-bg {
+  background-color: #161921;
+}
+
+.project-1-bg .container {
+  max-width: 50% !important;
+}
+
+.project-heading {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 30px;
+
+  color: #3cac69;
+}
+
+.box-line {
+  border-bottom: 3px solid #3cac69;
+  box-sizing: border-box;
+}
+
+.sub-project-heading {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.sub-project-heading-tag {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #77478d;
+}
+
+.project-2-bg {
+  background-color: #080e1d;
+}
+
+.project-forum-text {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.view-project {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.project-forum-heading {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 30px;
+
+  color: #1ae069;
+}
+
+.project-dictionary-heading {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 30px;
+
+  color: #f6223b;
+}
+
+.dictionary-project-col {
+  margin-top: 6rem;
+}
+
+.github-dictionary-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.github-dictionary-link:hover {
+  text-decoration: none;
+  color: #f6223b;
+}
+
+@media only screen and (max-width: 1660px) {
+  .project-forum-text {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #ffffff;
+  }
+  
+  .view-project {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+
+    color: #ffffff;
+  }
+
+  .project-forum-heading {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 30px;
+
+    color: #1ae069;
+  }
+
+  .project-dictionary-heading {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 30px;
+
+    color: #f6223b;
+  }
+
+  .dictionary-project-col {
+    margin-top: 6rem;
+  }
+
+  .github-dictionary-link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .github-dictionary-link:hover {
+    text-decoration: none;
+    color: #f6223b;
+  }
+}
+
+@media only screen and (max-width: 1660px) {
+  .project-forum-text {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #ffffff;
+  }
+
+  .logo-name {
+    font-family: "Ubuntu Mono", monospace;
+    color: #585656 !important;
+    font-size: 15px;
+  }
+
+  .view-project {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+
+    color: #ffffff;
+  }
+
+  .project-forum-heading {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 30px;
+
+    color: #1ae069;
+  }
+
+  .project-dictionary-heading {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 30px;
+
+    color: #f6223b;
+  }
+
+  .dictionary-project-col {
+    margin-top: 6rem;
+  }
+
+  .github-dictionary-link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .github-dictionary-link:hover {
+    text-decoration: none;
+    color: #f6223b;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .info-col {
+    display: none;
+  }
+  
+}
+
+@media only screen and (max-width: 496px) {
+  .view-project {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+
+    color: #ffffff;
+  }
+
+  .bracket-custom-right {
+    font-family: "Ubuntu Mono", monospace;
+    color: #00ff57 !important;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .bracket-custom-left {
+    font-family: "Ubuntu Mono", monospace;
+    color: #00ff57 !important;
+    font-size: 20px;
+    margin-left: 2px;
+  }
+
+  .logo-name {
+    font-family: "Ubuntu Mono", monospace;
+    color: #585656 !important;
+    font-size: 17px;
+  }
+
+  .creative-heading {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: #ffffff;
+  }
+
+  .information-heading {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #8f8989;
+  }
+
+  .firstname-heading {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 37px;
+
+    color: #ffffff;
+  }
+
+  .lastname-heading {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 37px;
+
+    color: #c4bcbc;
+  }
+
+  .container {
+    max-width: 100% !important; /*Set your own width %; */
+  }
+}
+
+.center-con {
+  display: flex;
+  height: 4vh;
+}
+
+.round {
+  position: absolute;
+  border: 2px solid #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#cta {
+  width: 100%;
+  cursor: pointer;
+  position: absolute;
+}
+
+.project-link {
+  position: relative;
+  z-index: 5;
+}
+
+#cta .arrow {
+  left: 31%;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0;
+  margin-left: 0px;
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  top: 12px;
+}
+.segunda {
+  margin-left: 8px;
+}
+.next {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
+}
+
+@keyframes bounceAlpha {
+  0% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+  25% {
+    opacity: 0;
+    transform: translateX(10px) scale(0.9);
+  }
+  26% {
+    opacity: 0;
+    transform: translateX(-10px) scale(0.9);
+  }
+  55% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}
+
+.bounceAlpha {
+  animation-name: bounceAlpha;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.arrow.primera.bounceAlpha {
+  animation-name: bounceAlpha;
+  animation-duration: 1.4s;
+  animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.round:hover .arrow {
+  animation-name: bounceAlpha;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.round:hover .arrow.primera {
+  animation-name: bounceAlpha;
+  animation-duration: 1.4s;
+  animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.card-big-container {
+  margin: 0;
+    padding: 0;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+
+.card-display-container {
+  width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-display-container  .card{
+  border: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-display-container  .card .face{
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.card-display-container  .card .face.face1{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.card-display-container  .card:hover .face.face1{
+  background: #52996a;
+  transform: translateY(0);
+}
+
+.card-display-container  .card .face.face1 .content{
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.card-display-container  .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+.card-display-container  .card .face.face1 .content img{
+  max-width: 100px;
+}
+
+.card-display-container  .card .face.face1 .content h3{
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.card-display-container  .card .face.face2{
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.card-display-container  .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.card-display-container  .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+}
+
+.card-display-container  .card .face.face2 .content a{
+  margin: 15px 0 0;
+  display:  inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.card-display-container  .card .face.face2 .content a:hover{
+  background: #333;
+  color: #fff;
+}
+
+.about-pane {
+  width: 100%;
+    height: 430px;
+    background:  url(assets/img/city-skyline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.study-information-bg {
+  background-color: rgb(53, 49, 49);
+}
+
+.program-bg {
+    background: rgb(26, 25, 25) url(/assets/img/city-skyline.jpgasdasdasdad);
+}
+
+
+
